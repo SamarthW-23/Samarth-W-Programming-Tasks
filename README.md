@@ -7,15 +7,15 @@
 3) Button 1 (Orange) for ON/OFF
 4) Button 2 (Purple) for Changing blinking speed.
 
--> The anode of LED connected to -> Pin 3 of board which is PWM capable.
--> The cathode of LED connected to -> ground pin of board
+- The anode of LED connected to -> Pin 3 of board which is PWM capable.
+- The cathode of LED connected to -> ground pin of board
 
-->Button 1 (ON/OFF button) connected between Pin 7 and ground.
-->Button 2 (Blinking speed change) connected between Pin 6 and ground.
+- Button 1 (ON/OFF button) connected between Pin 7 and ground.
+- Button 2 (Blinking speed change) connected between Pin 6 and ground.
 
 ## In setup()
--> The LED Pin (IN1) is set as an OUTPUT.
--> Both the button pins are set as INPUT_PULLUP (meaning HIGH by default, LOW when pressed).
+- The LED Pin (IN1) is set as an OUTPUT.
+- Both the button pins are set as INPUT_PULLUP (meaning HIGH by default, LOW when pressed).
 
 ## Approach:-
 
@@ -45,9 +45,9 @@ For this, we define some variables.
 (ii) the prevButtonState is set equal to raw;
 
 --> If [ current time - prevChangeTime > DebounceTime ] && [raw != StableButtonState]:-
-(i) StateButtonState = raw (meaning it was a genuine button press and not bounce)
-(ii) if [ StableButtonState == LOW ]:-
-        reverse the boolean value of 'isOn';
+- (i) StateButtonState = raw (meaning it was a genuine button press and not bounce)
+- (ii) if [ StableButtonState == LOW ]:-
+        -reverse the boolean value of 'isOn';
 
 
 #### delay() approach for Debouncing:-
@@ -80,7 +80,7 @@ So with every press the delay time changes its values as:-
 
 
 
-.............................................................................................
+.......................................................................................................................................................................................................................................................................................
 
 
 
