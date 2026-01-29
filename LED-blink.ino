@@ -43,7 +43,7 @@ void loop() {
       if(read == LOW){
         delayTime = delayTime + delayIncrement;
       
-        if((delayTime < 0) || (delayTime > 1000)){
+        if((delayTime =< 200) || (delayTime >= 1000)){
           delayIncrement = -delayIncrement;
         }
 
