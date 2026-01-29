@@ -41,8 +41,8 @@ For this, we define some variables.
 --> The variable 'raw' continuosly reads and stores the current state of the button using    digitalRead()
 
 --> if raw != previousButtonState:- 
-(i) prevChangeTime reads and stores the time (using millis()) at which the change occured.
-(ii) the prevButtonState is set equal to raw;
+- (i) prevChangeTime reads and stores the time (using millis()) at which the change occured.
+- (ii) the prevButtonState is set equal to raw;
 
 --> If [ current time - prevChangeTime > DebounceTime ] && [raw != StableButtonState]:-
 - (i) StateButtonState = raw (meaning it was a genuine button press and not bounce)
