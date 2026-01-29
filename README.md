@@ -7,15 +7,15 @@
 3) Button 1 (Orange) for ON/OFF
 4) Button 2 (Purple) for Changing blinking speed.
 
-> The anode of LED connected to -> Pin 3 of board which is PWM capable.
-> The cathode of LED connected to -> ground pin of board
+-> The anode of LED connected to -> Pin 3 of board which is PWM capable.
+-> The cathode of LED connected to -> ground pin of board
 
->Button 1 (ON/OFF button) connected between Pin 7 and ground.
->Button 2 (Blinking speed change) connected between Pin 6 and ground.
+->Button 1 (ON/OFF button) connected between Pin 7 and ground.
+->Button 2 (Blinking speed change) connected between Pin 6 and ground.
 
 ## In setup()
-> The LED Pin (IN1) is set as an OUTPUT.
-> Both the button pins are set as INPUT_PULLUP (meaning HIGH by default, LOW when pressed).
+-> The LED Pin (IN1) is set as an OUTPUT.
+-> Both the button pins are set as INPUT_PULLUP (meaning HIGH by default, LOW when pressed).
 
 ## Approach:-
 
